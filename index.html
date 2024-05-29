@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/color-1.css">
+    <link rel="stylesheet" href="css/style-switcher.css">
+    <!-- ===== Style Switcher ===== -->
+    <link rel="stylesheet" href="css/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="css/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="css/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="css/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="css/color-5.css" class="alternate-style" title="color-5" disabled>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body class="m-0 p-0 leading-normal text-base ">
+    <!-- ==== Main Container Start ====-->
+    <div class="main-container">
+        <!-- ==== Aside Start ====-->
+        <div
+            class="aside w-[270px] bg-[--bg-black-100] fixed flex left-0 top-0 z-10 h-full p-[30px] justify-center items-center border-r border-solid border-[--bg-black-50] max-[1470px]:hidden">
+            <div class="logo absolute top-[50px] text-[30px] capitalize">
+                <a href="#"
+                    class="text-[--text-black-900] font-[700] px-[15px] py-[20px] text-[30px]  tracking-[5px] relative"><span
+                        class="text-[40px]">E</span>nSd</a>
+            </div>
+            <div
+                class="nav-toggler h-[40px] w-[45px] border border-solid border-[--bg-black-50] cursor-pointer fixed left-[300px] top-[20px] rounded-[5px] bg-[--bg-black-100] hidden items-center justify-center">
+                <span class="h-[2px] w-[18px] bg-[--skin-color] inline-block relative"></span>
+            </div>
+            <ul class="nav mt-[50px]">
+                <li><a href="#home" class="menu-item active"><i class="fa fa-home"></i>
+                        Home</a></li>
+                <li><a href="#about" class="menu-item "><i class="fa fa-user"></i> About</a></li>
+                <li><a href="#service" class="menu-item "><i class="fa fa-list"></i> Services</a></li>
+                <li><a href="#portfolio" class="menu-item "><i class="fa fa-briefcase"></i> Portfolio</a></li>
+                <li><a href="#contact" class="menu-item "><i class="fa fa-comments"></i> Contact</a></li>
+            </ul>
+        </div>
+        <!-- ==== Aside End ==== -->
+        <!-- ==== Main Content Start ====-->
+        <div class="main-content pl-[270px] bg-[--bg-black-900] max-[1470px]:pl-0">
+            <!-- ==== Home Section Start ====-->
+            <div class="wow slideInRight home section  min-h-screen block opacity-100 py-[30px] px-0 flex justify-center items-center"
+                id="home">
+                <div class=" max-w-[1100px] w-full m-auto ">
+                    <div class="row flex flex-wrap ml-[-15px] min-[1155px]:mr-[-15px] relative">
+                        <div class="home-info padd-15">
+                            <h3 class="hello font-[600] text-[28px] max-[600px]:text-[20px] mx-0 my-[15px]">
+                                Salut, je m'appelle
+                                <span
+                                    class="name text-[30px] max-[600px]:text-[22px] font-700 text-[--skin-color]">Elouga
+                                    Nyobe Steve Didier</span>
+                            </h3>
+                            <h3 class="ma-profession font-[600] text-[30px] max-[600px]:text-[22px] mx-0 my-[15px]">
+                                Je suis un
+                                <span class="typing text-[--skin-color]">Ingenieur Logiciel</span>
+                            </h3>
+                            <p class="mb-[70px] text-[20px] max-[600px]:text-[16px] text-[--text-black-700]">Un eleve en
+                                ingenierie logiciel. J'apprend a concevoir des applications web, gerer des systeme
+                                d'information, mener des projets d'ingenierie logiciel et plus encore...</p>
+                            <a href="#contact" class="btn hire-me max-[600px]:text-[10px]">M'engager</a>
+                        </div>
+                        <div class="home-img relative text-center flex justify-center items-center padd-15 after:content-[''] after:absolute after:h-[80px] after:w-[80px] after:right-[-20px] after:bottom-[-40px] after:border-b-[10px] after:border-b-solid after:border-b-[--skin-color]
+                        after:border-r-[10px]
+                        after:border-r-solid after:border-r-[--skin-color] before:content-[''] before:absolute before:h-[80px] before:w-[80px] before:left-[-20px] before:top-[-40px] before:border-t-[10px] before:border-t-solid before:border-t-[--skin-color]
+                        before:border-l-[10px]
+                        before:border-l-solid before:border-l-[--skin-color] max-[1199px]:hidden">
+                            <img src="images/hero.jpg" alt="" class="h-[400px] m-auto rounded-[5px] object-cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ==== Home Section End ====-->
+            <!-- ==== About Section Start ====-->
+            <section class="about section" id="about">
+                <div class="min-[1470px]:container pt-[60px] pb-[70px]">
+                    <div class="row">
+                        <div class="section-title padd-15 max-w-full mb-[60px]">
+                            <h2 class="font-[700] text-[40px] max-[600px]:text-[30px] text-[--text-black-900] relative">
+                                About Me</h2>
+                        </div>
+                        <div class="row">
+                            <div class="about-content padd-15 max-w-full">
+                                <div class="row">
+                                    <div class="about-text max-w-full padd-15">
+                                        <h3
+                                            class="font-[500] text-[24px] max-[600px]:text-[20px] mb-[15px] font-[700] text-[--text-black-900]">
+                                            Je suis Elouga Nyobe et je suis <span class="text-[--skin-color]">Ingenieur
+                                                Logiciel</span></h3>
+                                        <p
+                                            class="text-[16px] max-[600px]:text-[14px] leading-[25px] text-[--text-black-700]">
+                                            La formation d'ingénieur en génie logiciel vise à fournir aux étudiants
+                                            une compréhension approfondie des fondamentaux théoriques et
+                                            des applications pratiques dans le domaine du génie logiciel. Ce
+                                            programme combine des enseignements en informatique, en
+                                            conception de logiciels, en gestion de projets, ainsi qu'en
+                                            compétences transversales telles que la communication et le travail
+                                            en équipe. La formation englobe un large éventail de sujets, dont la
+                                            programmation (Java, CH+, Python, etc.), les bases de données,
+                                            l'ingénierie des exigences, l'analyse et la conception de logiciels,
+                                            l'architecture logicielle, les méthodologies de développement,
+                                            l'assurance qualité logicielle, les tests et la maintenance logicielle. En
+                                            parallèle, des matières complémentaires peuvent inclure des cours
+                                            de gestion de projet, des aspects légaux et éthiques de
+                                            l'informatique, ainsi que des éléments de conceptionUX/UI.</p>
+                                    </div>
+                                </div>
+                                <div class="row min-[1000px]:flex mt-[40px]">
+                                    <div class="personal-info min-[1000px]:max-w-[60%] padd-15">
+                                        <div class="row flex flex-wrap">
+                                            <div class="info-item padd-15">
+                                                <p>Anniversaire : <span>02 Aout 2002</span></p>
+                                            </div>
+                                            <div class="info-item padd-15">
+                                                <p>Age : <span>21</span></p>
+                                            </div>
+                                            <div class="info-item padd-15">
+                                                <p>Site Web : <span>steveelouga.github.
+                                                        io/elouganyobe</span></p>
+                                            </div>
+                                            <div class="info-item padd-15">
+                                                <p>Email 1 : <span>nyobeelouga5@gmail.com</span></p>
+                                                <p>Email 1 : <span>nyobeelouga5@icloud.com</span></p>
+                                            </div>
+                                            <div class="info-item padd-15">
+                                                <p>Diplome : <span>Licence en Informatique</span></p>
+                                            </div>
+                                            <div class="info-item padd-15">
+                                                <p>Telephone : <span>+237 658 552 294</span></p>
+                                            </div>
+                                            <div class="info-item padd-15">
+                                                <p>Pays : <span>Cameroun</span></p>
+                                            </div>
+                                            <div class="info-item padd-15">
+                                                <p>Region : <span>Littoral</span></p>
+                                            </div>
+                                            <div class="info-item padd-15">
+                                                <p>Ville : <span>Douala</span></p>
+                                            </div>
+                                            <div class="info-item padd-15">
+                                                <p>Freelance : <span>Disponible</span></p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="buttons padd-15 mt-[30px]">
+                                                <a href="./file/CV de Steve Didier ELOUGA NYOBE (1).pdf" download="CV"  class="btn mr-[15px] mt-[10px]">Telecharger CV</a>
+                                                <a href="#contact" class="btn hire-me">M'engager</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="skills max-[1000px]:mx-auto max-[1000px]:max-w-[70%] max-[1000px]:mt-[50px]  max-w-[40%] padd-15">
+                                        <div class="row">
+                                            <div class="skill-item padd-15">
+                                                <h5>JS</h5>
+                                                <div class="progress">
+                                                    <div class="progress-in w-[86%]"></div>
+                                                    <div class="skill-percent">86%</div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item padd-15">
+                                                <h5>CSS</h5>
+                                                <div class="progress">
+                                                    <div class="progress-in w-[95%]"></div>
+                                                    <div class="skill-percent">95%</div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item padd-15">
+                                                <h5>TAILWIND</h5>
+                                                <div class="progress">
+                                                    <div class="progress-in w-[80%]"></div>
+                                                    <div class="skill-percent">80%</div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item padd-15">
+                                                <h5>BOOTSTRAP</h5>
+                                                <div class="progress">
+                                                    <div class="progress-in w-[70%]"></div>
+                                                    <div class="skill-percent">70%</div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item padd-15">
+                                                <h5>HTML</h5>
+                                                <div class="progress">
+                                                    <div class="progress-in w-[95%]"></div>
+                                                    <div class="skill-percent">95%</div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item padd-15">
+                                                <h5>SPRING BOOT</h5>
+                                                <div class="progress">
+                                                    <div class="progress-in w-[70%]"></div>
+                                                    <div class="skill-percent">70%</div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item padd-15">
+                                                <h5>PYTHON</h5>
+                                                <div class="progress">
+                                                    <div class="progress-in w-[60%]"></div>
+                                                    <div class="skill-percent">60%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row min-[880px]:flex">
+                                    <div class="education padd-15">
+                                        <h3 class="title">Education</h3>
+                                        <div class="row">
+                                            <div class="timeline-box">
+                                                <div class="timeline shadow-dark">
+                                                    <!-- ==== timeline item ==== -->
+                                                    <div class="timeline-item">
+                                                        <div class="circle-dot"></div>
+                                                        <h3 class="timeline-date font-[700]">
+                                                            <i class="fa fa-calendar"></i> 2019 - 2025
+                                                        </h3>
+                                                        <h4 class="timeline-title font-[700]">Diplome d'Ingenieur en
+                                                            Informatique</h4>
+                                                        <p class="timeline-text">L'ingénierie logicielle est une
+                                                            discipline de l'informatique consacrée à la conception, au
+                                                            développement, à la maintenance et à la gestion des systèmes
+                                                            logiciels. Elle applique des principes d'ingénierie et des
+                                                            pratiques de gestion de projet pour produire des logiciels
+                                                            de haute qualité, fiables et maintenables. Cela comprend
+                                                            l'analyse des besoins des utilisateurs, la planification de
+                                                            l'architecture du logiciel, l'écriture du code source, la
+                                                            vérification par des tests, le déploiement en production et
+                                                            la maintenance continue pour corriger les bugs et améliorer
+                                                            les fonctionnalités. Les méthodologies comme Agile, Scrum ou
+                                                            Waterfall sont souvent utilisées pour organiser ces
+                                                            activités, tout en respectant des principes tels que la
+                                                            modularité, la réutilisabilité, la scalabilité, la sécurité
+                                                            et la fiabilité du logiciel.</p>
+                                                    </div>
+                                                    <div class="timeline-item">
+                                                        <div class="circle-dot"></div>
+                                                        <h3 class="timeline-date">
+                                                            <i class="fa fa-calendar"></i> 2012 - 2019
+                                                        </h3>
+                                                        <h4 class="timeline-title">Baccalaureat serie D</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="experience padd-15">
+                                        <h3 class="title">Experience</h3>
+                                        <div class="row">
+                                            <div class="timeline-box">
+                                                <div class="timeline shadow-dark">
+                                                    <!-- ==== timeline item ==== -->
+                                                    <div class="timeline-item">
+                                                        <div class="circle-dot"></div>
+                                                        <h3 class="timeline-date font-[700]">
+                                                            <i class="fa fa-calendar"></i> 06-2023 - 09-2023
+                                                        </h3>
+                                                        <h4 class="timeline-title font-[700]">Stage chez Getsmarter</h4>
+                                                        <p class="timeline-text">Grâce à une formation interne
+                                                            approfondie chez Getsmarter, j'ai acquis une solide
+                                                            compréhension des technologies web modernes et des
+                                                            meilleures pratiques de conception d'interfaces utilisateur.
+                                                            En tant que développeur front-end junior, j'ai collaboré
+                                                            avec les concepteurs UX/UI pour créer des interfaces web
+                                                            esthétiques, conviviales et interactives. Mes
+                                                            responsabilités comprenaient la traduction des maquettes en
+                                                            code front-end robuste, les revues de code, les tests
+                                                            d'interface utilisateur et l'optimisation des performances.
+                                                            Mon engagement dans les itérations agiles et ma capacité à
+                                                            intégrer rapidement les retours ont été essentiels au
+                                                            déploiement réussi de fonctionnalités sur les plateformes
+                                                            existantes. Chez Getsmarter, j'ai consolidé mes compétences
+                                                            techniques, approfondi ma collaboration au sein d'une équipe
+                                                            multidisciplinaire et élargi ma compréhension des
+                                                            implications pratiques de la conception web sur les
+                                                            applications concrètes.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ==== About Section End ====-->
+            <!-- ==== Service Section Start ====-->
+            <section class="service section" id="service">
+                <div class="min-[1470px]:container pt-[60px] pb-[70px]">
+                    <div class="row">
+                        <div class="section-title padd-15 max-w-full mb-[60px]">
+                            <h2 class="font-[700] text-[40px] max-[600px]:text-[30px] text-[--text-black-900] relative">
+                                Services</h2>
+                        </div>
+                    </div>
+                    <div class="row flex flex-wrap">
+                        <!-- ==== Services item Start ==== -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-mobile-alt"></i>
+                                </div>
+                                <h4>Designer Web</h4>
+                                <p>Le designer web crée des sites web attrayants et faciles à utiliser qui améliorent
+                                    l'expérience utilisateur et stimulent les conversions.</p>
+                            </div>
+                        </div>
+                        <!-- ==== Services item End ==== -->
+                        <!-- ==== Services item Start ==== -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-laptop-code"></i>
+                                </div>
+                                <h4>Gestion de projet Scrum</h4>
+                                <p>Une approche itérative et incrémentale pour gérer les projets complexes, qui met
+                                    l'accent sur la collaboration, la flexibilité et la livraison rapide de valeur.</p>
+                            </div>
+                        </div>
+                        <!-- ==== Services item End ==== -->
+                        <!-- ==== Services item Start ==== -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-palette"></i>
+                                </div>
+                                <h4>Administration de système d'information (SI)</h4>
+                                <p>Le designer web crée des sites web attrayants et faciles à utiliser qui améliorent
+                                    l'expérience utilisateur et stimulent les conversions.</p>
+                            </div>
+                        </div>
+                        <!-- ==== Services item End ==== -->
+                        <!-- ==== Services item Start ==== -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>Conception et analyse des applications web</h4>
+                                <p>Le processus de création et d'évaluation des applications web, en tenant compte des
+                                    besoins des utilisateurs, des exigences fonctionnelles et des meilleures pratiques
+                                    de conception, pour garantir des applications web efficaces, conviviales et
+                                    répondant aux attentes.</p>
+                            </div>
+                        </div>
+                        <!-- ==== Services item End ==== -->
+                        <!-- ==== Services item Start ==== -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                                <h4>Tests de sécurité et audit d'applications web</h4>
+                                <p>L'évaluation de la sécurité des applications web en identifiant les vulnérabilités et
+                                    les failles de sécurité, en utilisant des techniques manuelles et automatisées, pour
+                                    garantir la confidentialité, l'intégrité et la disponibilité des applications.</p>
+                            </div>
+                        </div>
+                        <!-- ==== Services item End ==== -->
+                        <!-- ==== Services item Start ==== -->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-bullhorn"></i>
+                                </div>
+                                <h4>Investigation numérique</h4>
+                                <p> L'examen et l'analyse de données numériques, telles que les disques durs, les
+                                    appareils mobiles et les réseaux, pour découvrir, préserver et interpréter des
+                                    preuves numériques dans le cadre d'enquêtes civiles ou criminelles.</p>
+                            </div>
+                        </div>
+                        <!-- ==== Services item End ==== -->
+                    </div>
+                </div>
+            </section>
+            <!-- ==== Service Section End ====-->
+            <!-- ==== Portfolio Section Start ====-->
+            <section class="portfolio section" id="portfolio">
+                <div class="min-[1470px]:container pt-[60px] pb-[70px]">
+                    <div class="row flex flex-wrap">
+                        <div class="section-title padd-15 max-w-full mb-[60px]">
+                            <h2 class="font-[700] text-[40px] max-[600px]:text-[30px] text-[--text-black-900] relative">
+                                Portfolio</h2>
+                        </div>
+                        <div class="row">
+                            <div class="portfolio-heading padd-15">
+                                <h2>Mes Projets</h2>
+                            </div>
+                        </div>
+                        <div class="row w-full flex flex-wrap">
+                            <!-- ==== Portfolio item Start ====-->
+                            <div class="portfolio-item padd-15">
+                                <div class="portfolio-item-inner">
+                                    <a href="https://github.com/SteveElouga/Api-Gestion-Employee">
+                                        <div class="portfolio-img">
+                                            <img src="images/business-man-and-woman-checking-document_23-2147626324.jpg"
+                                                alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- ==== Portfolio item End ====-->
+                            <!-- ==== Portfolio item Start ====-->
+                            <div class="portfolio-item padd-15">
+                                <div class="portfolio-item-inner">
+                                    <a href="https://github.com/SteveElouga/journal-ipm-cpm">
+                                        <div class="portfolio-img">
+                                            <img src="images/gens-qui-trainent-ensemble-au-cafe_53876-12189.jpg" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- ==== Portfolio item End ====-->
+                            <!-- ==== Portfolio item Start ====-->
+                            <div class="portfolio-item padd-15">
+                                <div class="portfolio-item-inner">
+                                    <a href="https://github.com/SteveElouga/Login">
+                                        <div class="portfolio-img">
+                                            <img src="images/illustration-concept-politique-confidentialite_114360-7853.avif"
+                                                alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- ==== Portfolio item End ====-->
+                            <!-- ==== Portfolio item Start ====-->
+                            <div class="portfolio-item padd-15">
+                                <div class="portfolio-item-inner">
+                                    <a href="https://github.com/SteveElouga/HappyBirthday">
+                                        <div class="portfolio-img">
+                                            <img src="images/joyeux-anniversaire-fille-soufflant-bougies_23-2148757457.jpg"
+                                                alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- ==== Portfolio item End ====-->
+                            <!-- ==== Portfolio item Start ====-->
+                            <div class="portfolio-item padd-15">
+                                <div class="portfolio-item-inner">
+                                    <a href="https://github.com/SteveElouga/Gestion-de-taches">
+                                        <div class="portfolio-img">
+                                            <img src="images/employes-angle-eleve-travaillant-ensemble_23-2150152254.jpg"
+                                                alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- ==== Portfolio item End ====-->
+                            <!-- ==== Portfolio item Start ====-->
+                            <div class="portfolio-item padd-15">
+                                <div class="portfolio-item-inner ">
+                                    <a href="https://github.com/SteveElouga/Api-auth-Python">
+                                        <div class="portfolio-img">
+                                            <img src="images/illustration-api-design-plat_23-2149363700.jpg" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- ==== Portfolio item End ====-->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ==== Service Section End ====-->
+            <!-- ==== Contact Section Start ====-->
+            <section class="contact section pb-[50px]" id="contact">
+                <div class="min-[1470px]:container">
+                    <div class="row justify-center items-center">
+                        <div class="section-title padd-15 max-w-full mb-[60px]">
+                            <h2 class="font-[700] text-[40px] text-[--text-black-900] relative">Contactez-moi</h2>
+                        </div>
+                        <h3 class="contact-title padd-15">
+                            Avez-vous des questions ?
+                        </h3>
+                        <h4 class="contact-sub-title padd-15">
+                            Je me tiens a votre disposition.
+                        </h4>
+                        <div class="row flex flex-wrap">
+                            <!-- ===== Contact infos item start ===== -->
+                            <div class="contact-info-item padd-15">
+                                <div class="icon">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                                <h4>Appelez-nous</h4>
+                                <p>+237 658552294</p>
+                            </div>
+                            <!-- ===== Contact infos item end ===== -->
+                            <!-- ===== Contact infos item start ===== -->
+                            <div class="contact-info-item padd-15">
+                                <div class="icon">
+                                    <i class="fa fa-map-marker-alt"></i>
+                                </div>
+                                <h4>Bureau</h4>
+                                <p>Douala</p>
+                            </div>
+                            <!-- ===== Contact infos item end ===== -->
+                            <!-- ===== Contact infos item start ===== -->
+                            <div class="contact-info-item padd-15">
+                                <div class="icon">
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <h4>Email</h4>
+                                <p>nyobeelouga5@gmail.com</p>
+                            </div>
+                            <!-- ===== Contact infos item end ===== -->
+                            <!-- ===== Contact infos item start ===== -->
+                            <div class="contact-info-item padd-15">
+                                <div class="icon">
+                                    <i class="fa fa-globe-europe"></i>
+                                </div>
+                                <h4>Site Web</h4>
+                                <p>https://github.com/SteveElouga</p>
+                            </div>
+                            <!-- ===== Contact infos item end ===== -->
+                        </div>
+                    </div>
+                    <h3 class="contact-title padd-15">
+                        Envoyez-moi un email
+                    </h3>
+                    <h4 class="contact-sub-title padd-15">
+                        Je me tiens a votre disposition.
+                    </h4>
+                    <!-- ======= Contact Form ======= -->
+                    <div class="row">
+                        <div class="contact-form padd-15">
+                            <div class="row grid grid-cols-2">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Nom">
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15 ">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Sujet">
+                                    </div>
+                                </div>
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <textarea type="text" class="form-control" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-item col-12 padd-15">
+
+                                    <button type="submit" class="btn">Envyer le Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ==== Contact Section End ====-->
+        </div>
+        <!-- ==== Main Content End ====-->
+
+        <!-- ==== Style Switcher Start ==== -->
+        <div
+            class="style-switcher fixed right-0 top-[60px] p-[15px] w-[200px] border-solid border-[--bg-black-50] bg-[--bg-black-100] z-[101] rounded-[5px] transition-all duration-300 ease translate-x-full">
+            <div class="style-switcher-toggler s-icon">
+                <i class="fas fa-cog fa-spin"></i>
+            </div>
+            <div class="day-night s-icon">
+                <i class="fas"></i>
+            </div>
+            <h4>Theme de couleurs</h4>
+            <div class="colors">
+                <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+                <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+                <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+                <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+                <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+            </div>
+        </div>
+        <!-- ==== Style Switcher End ==== -->
+    </div>
+    <!-- ==== Main Container End ====-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
+        integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+    <script src="js/style-switcher.js"></script>
+</body>
+
+</html>
