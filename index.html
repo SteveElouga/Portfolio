@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/color-3.css" class="alternate-style" title="color-3" disabled>
     <link rel="stylesheet" href="css/color-4.css" class="alternate-style" title="color-4" disabled>
     <link rel="stylesheet" href="css/color-5.css" class="alternate-style" title="color-5" disabled>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/hero.jpg" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Potfolio Elouga Nyobe</title>
@@ -25,7 +26,14 @@
         <!-- ==== Aside Start ====-->
         <div
             class="aside w-[270px] bg-[--bg-black-100] fixed flex left-0 top-0 z-10 h-full p-[30px] justify-center items-center border-r border-solid border-[--bg-black-50] max-[1470px]:hidden">
-            <div class="logo absolute top-[50px] text-[30px] capitalize">
+            <div class="logo absolute top-[50px] text-[30px] capitalize"
+                data-aos="fade-down"
+                data-aos-delay="50"
+                data-aos-duration="2000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+            >
                 <a href="#"
                     class="text-[--text-black-900] font-[700] px-[15px] py-[20px] text-[30px]  tracking-[5px] relative"><span
                         class="text-[40px]">E</span>nSd</a>
@@ -35,12 +43,46 @@
                 <span class="h-[2px] w-[18px] bg-[--skin-color] inline-block relative"></span>
             </div>
             <ul class="nav mt-[50px]">
-                <li><a href="#home" class="menu-item active"><i class="fa fa-home"></i>
+                <li data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                ><a href="#home" class="menu-item active"><i class="fa fa-home"></i>
                         Home</a></li>
-                <li><a href="#about" class="menu-item "><i class="fa fa-user"></i> About</a></li>
-                <li><a href="#service" class="menu-item "><i class="fa fa-list"></i> Services</a></li>
-                <li><a href="#portfolio" class="menu-item "><i class="fa fa-briefcase"></i> Portfolio</a></li>
-                <li><a href="#contact" class="menu-item "><i class="fa fa-comments"></i> Contact</a></li>
+                <li
+                data-aos="fade-right"
+                data-aos-delay="200"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                ><a href="#about" class="menu-item "><i class="fa fa-user"></i> About</a></li>
+                <li
+                data-aos="fade-right"
+                data-aos-delay="500"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                ><a href="#service" class="menu-item "><i class="fa fa-list"></i> Services</a></li>
+                <li
+                data-aos="fade-right"
+                data-aos-delay="700"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                ><a href="#portfolio" class="menu-item "><i class="fa fa-briefcase"></i> Portfolio</a></li>
+                <li
+                data-aos="fade-right"
+                data-aos-delay="900"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                ><a href="#contact" class="menu-item "><i class="fa fa-comments"></i> Contact</a></li>
             </ul>
         </div>
         <!-- ==== Aside End ==== -->
@@ -51,7 +93,14 @@
                 id="home">
                 <div class=" max-w-[1100px] w-full m-auto ">
                     <div class="row flex flex-wrap ml-[-15px] min-[1155px]:mr-[-15px] relative">
-                        <div class="home-info padd-15">
+                        <div class="home-info padd-15"
+                            data-aos="fade-up"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-mirror="true"
+                            data-aos-once="false"
+                        >
                             <h3 class="hello font-[600] text-[28px] max-[600px]:text-[20px] mx-0 my-[15px]">
                                 Salut, je m'appelle
                                 <span
@@ -67,7 +116,14 @@
                                 d'information, mener des projets d'ingenierie logiciel et plus encore...</p>
                             <a href="#contact" class="btn hire-me max-[600px]:text-[10px]">M'engager</a>
                         </div>
-                        <div class="home-img relative text-center flex justify-center items-center padd-15 after:content-[''] after:absolute after:h-[80px] after:w-[80px] after:right-[-20px] after:bottom-[-40px] after:border-b-[10px] after:border-b-solid after:border-b-[--skin-color]
+                        <div 
+                            data-aos="fade-down"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-once="false"
+                            data-aos-mirror="true"                                
+                        class="home-img relative text-center flex justify-center items-center padd-15 after:content-[''] after:absolute after:h-[80px] after:w-[80px] after:right-[-20px] after:bottom-[-40px] after:border-b-[10px] after:border-b-solid after:border-b-[--skin-color]
                         after:border-r-[10px]
                         after:border-r-solid after:border-r-[--skin-color] before:content-[''] before:absolute before:h-[80px] before:w-[80px] before:left-[-20px] before:top-[-40px] before:border-t-[10px] before:border-t-solid before:border-t-[--skin-color]
                         before:border-l-[10px]
@@ -79,7 +135,14 @@
             </div>
             <!-- ==== Home Section End ====-->
             <!-- ==== About Section Start ====-->
-            <section class="about section" id="about">
+            <section class="about section" id="about"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-once="false"
+            data-aos-mirror="true" 
+            >
                 <div class="min-[1470px]:container pt-[60px] pb-[70px]">
                     <div class="row">
                         <div class="section-title padd-15 max-w-full mb-[60px]">
@@ -113,7 +176,14 @@
                                     </div>
                                 </div>
                                 <div class="row min-[1000px]:flex mt-[40px]">
-                                    <div class="personal-info min-[1000px]:max-w-[60%] padd-15">
+                                    <div class="personal-info min-[1000px]:max-w-[60%] padd-15"
+                                    data-aos="fade-left"
+                                    data-aos-delay="50"
+                                    data-aos-duration="1000"
+                                    data-aos-easing="ease-in-out"
+                                    data-aos-mirror="true"
+                                    data-aos-once="false"
+                                    >
                                         <div class="row flex flex-wrap">
                                             <div class="info-item padd-15">
                                                 <p>Anniversaire : <span>02 Aout 2002</span></p>
@@ -158,7 +228,14 @@
                                         </div>
                                     </div>
                                     <div
-                                        class="skills max-[1000px]:mx-auto max-[1000px]:max-w-[70%] max-[500px]:max-w-[90%] max-[1000px]:mt-[50px]  max-w-[40%] padd-15">
+                                        class="skills max-[1000px]:mx-auto max-[1000px]:max-w-[70%] max-[500px]:max-w-[90%] max-[1000px]:mt-[50px]  max-w-[40%] padd-15"
+                                        data-aos="fade-right"
+                                        data-aos-delay="50"
+                                        data-aos-duration="1000"
+                                        data-aos-easing="ease-in-out"
+                                        data-aos-mirror="true"
+                                        data-aos-once="false"
+                                        >
                                         <div class="row">
                                             <div class="skill-item padd-15">
                                                 <h5>JS</h5>
@@ -213,7 +290,14 @@
                                     </div>
                                 </div>
                                 <div class="row min-[880px]:flex">
-                                    <div class="education padd-15">
+                                    <div class="education padd-15"
+                                    data-aos="fade-right"
+                                    data-aos-delay="50"
+                                    data-aos-duration="1000"
+                                    data-aos-easing="ease-in-out"
+                                    data-aos-mirror="true"
+                                    data-aos-once="false"
+                                    >
                                         <h3 class="title">Education</h3>
                                         <div class="row">
                                             <div class="timeline-box">
@@ -226,7 +310,7 @@
                                                         </h3>
                                                         <h4 class="timeline-title font-[700]">Diplome d'Ingenieur en
                                                             Informatique</h4>
-                                                        <p class="timeline-text">L'ingénierie logicielle est une
+                                                        <p class="timeline-text text-[--text-black-900]">L'ingénierie logicielle est une
                                                             discipline de l'informatique consacrée à la conception, au
                                                             développement, à la maintenance et à la gestion des systèmes
                                                             logiciels. Elle applique des principes d'ingénierie et des
@@ -253,7 +337,14 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="experience padd-15">
+                                    <div class="experience padd-15"
+                                    data-aos="fade-left"
+                                    data-aos-delay="50"
+                                    data-aos-duration="1000"
+                                    data-aos-easing="ease-in-out"
+                                    data-aos-mirror="true"
+                                    data-aos-once="false"
+                                    >
                                         <h3 class="title">Experience</h3>
                                         <div class="row">
                                             <div class="timeline-box">
@@ -265,7 +356,7 @@
                                                             <i class="fa fa-calendar"></i> 06-2023 - 09-2023
                                                         </h3>
                                                         <h4 class="timeline-title font-[700]">Stage chez Getsmarter</h4>
-                                                        <p class="timeline-text">Grâce à une formation interne
+                                                        <p class="timeline-text text-[--text-black-900]">Grâce à une formation interne
                                                             approfondie chez Getsmarter, j'ai acquis une solide
                                                             compréhension des technologies web modernes et des
                                                             meilleures pratiques de conception d'interfaces utilisateur.
@@ -296,7 +387,14 @@
             </section>
             <!-- ==== About Section End ====-->
             <!-- ==== Service Section Start ====-->
-            <section class="service section" id="service">
+            <section class="service section" id="service"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            >
                 <div class="min-[1470px]:container pt-[60px] pb-[70px]">
                     <div class="row">
                         <div class="section-title padd-15 max-w-full mb-[60px]">
@@ -386,7 +484,14 @@
             </section>
             <!-- ==== Service Section End ====-->
             <!-- ==== Portfolio Section Start ====-->
-            <section class="portfolio section" id="portfolio">
+            <section class="portfolio section" id="portfolio"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            >
                 <div class="min-[1470px]:container pt-[60px] pb-[70px]">
                     <div class="row flex flex-wrap">
                         <div class="section-title padd-15 max-w-full mb-[60px]">
@@ -489,7 +594,14 @@
                         </h4>
                         <div class="row flex flex-wrap">
                             <!-- ===== Contact infos item start ===== -->
-                            <div class="contact-info-item padd-15">
+                            <div class="contact-info-item padd-15"
+                            data-aos="fade-right"
+                            data-aos-delay="400"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-once="false"
+                            data-aos-mirror="true" 
+                            >
                                 <div class="icon">
                                     <i class="fa fa-phone"></i>
                                 </div>
@@ -498,7 +610,14 @@
                             </div>
                             <!-- ===== Contact infos item end ===== -->
                             <!-- ===== Contact infos item start ===== -->
-                            <div class="contact-info-item padd-15">
+                            <div class="contact-info-item padd-15"
+                            data-aos="fade-right"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-once="false"
+                            data-aos-mirror="true" 
+                            >
                                 <div class="icon">
                                     <i class="fa fa-map-marker-alt"></i>
                                 </div>
@@ -507,7 +626,14 @@
                             </div>
                             <!-- ===== Contact infos item end ===== -->
                             <!-- ===== Contact infos item start ===== -->
-                            <div class="contact-info-item padd-15">
+                            <div class="contact-info-item padd-15"
+                            data-aos="fade-left"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-once="false"
+                            data-aos-mirror="true" 
+                            >
                                 <div class="icon">
                                     <i class="fa fa-envelope"></i>
                                 </div>
@@ -516,7 +642,14 @@
                             </div>
                             <!-- ===== Contact infos item end ===== -->
                             <!-- ===== Contact infos item start ===== -->
-                            <div class="contact-info-item padd-15">
+                            <div class="contact-info-item padd-15"
+                            data-aos="fade-left"
+                            data-aos-delay="400"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-once="false"
+                            data-aos-mirror="true" 
+                            >
                                 <div class="icon">
                                     <i class="fa fa-globe-europe"></i>
                                 </div>
@@ -574,10 +707,24 @@
         <!-- ==== Style Switcher Start ==== -->
         <div
             class="style-switcher fixed right-0 top-[60px] p-[15px] w-[200px] border-solid border-[--bg-black-50] bg-[--bg-black-100] z-[101] rounded-[5px] transition-all duration-300 ease translate-x-full">
-            <div class="style-switcher-toggler s-icon">
+            <div class="style-switcher-toggler s-icon"
+                data-aos="fade-left"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+            >
                 <i class="fas fa-cog fa-spin"></i>
             </div>
-            <div class="day-night s-icon">
+            <div class="day-night s-icon"
+                data-aos="fade-left"
+                data-aos-delay="400"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+            >
                 <i class="fas"></i>
             </div>
             <h4>Theme de couleurs</h4>
@@ -592,7 +739,10 @@
         <!-- ==== Style Switcher End ==== -->
     </div>
     <!-- ==== Main Container End ====-->
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
         integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
