@@ -68,6 +68,9 @@ body{
     top:6px;
     left:0;
 }
+/* .aside nav{
+    display: fixed;
+} */
 .aside .nav li{
     margin-bottom: 20px;
     display: block;
